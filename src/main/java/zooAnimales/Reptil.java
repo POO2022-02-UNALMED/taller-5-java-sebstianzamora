@@ -22,7 +22,7 @@ public class Reptil extends Animal {
 	}
 
 	public static ArrayList<Reptil> getListado() {
-		return listad;
+		return listado;
 	}
 
 	public static void setListado(ArrayList<Reptil> listado) {
@@ -54,7 +54,7 @@ public class Reptil extends Animal {
 		return new Reptil(nombre,edad,"humedal",genero,"verde",3);
 	}
 	public static int cantidadReptiles() {
-		return listado.size();
+		return listado.size()
 	}
 	
 	@Override
